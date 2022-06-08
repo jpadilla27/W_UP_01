@@ -50,6 +50,12 @@ There is pushups on the y-axis of the box plot. While there is the positions on 
 
 ### Numerical Descriptive Results
 
+```{r}
+favstats(pushups~position,data=mydata)
+```
+
+The median of the positions is different, whereas the skill is significantly greater. The max amount of pushuos in the line position was 34 opposed to the skill position maximum of 108. The line position also had a lower mean average of 17.125 and the skill had the higher mean average of 49.72727.
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
